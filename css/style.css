@@ -167,13 +167,7 @@ body {
        
     }
 
-   .col {
-        flex-direction: column-reverse;
-        text-align: left;
-        align-items: left;
-        justify-content: right;
-        margin-left: 5;
-   }
+
 
 
 }
