@@ -106,10 +106,12 @@ body {
     display: none;
 }
 
-@media (max-width:522px) {
+@media (max-width:750px) {
 
     .card {
-        width: 100%;
+        width: 100vw;
+        justify-content: center;
+        margin-top: 10px;
     }
     .search input {
         width: 50vw;
@@ -149,25 +151,3 @@ body {
 
 };
 
-@media (max-width:398px) {
-    .card {
-        width: 100%;
-    }
-    .search input {
-        width: 100vw;
-    }
-
-    .search button {
-        width: 80vw;
-    }
-
-    .weather {
-        width: 90vw;
-        display: block;
-       
-    }
-
-
-
-
-}
