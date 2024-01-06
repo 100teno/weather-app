@@ -105,3 +105,68 @@ body {
     margin-top: 10px;
     display: none;
 }
+
+@media (max-width:522px) {
+
+    .card {
+        width: 100%;
+    }
+    .search input {
+        width: 50vw;
+    }
+
+    .search button {
+        width: 90vw;
+    }
+
+    .weather {
+        width: 90vw;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .humidity {
+        margin-left: 5px;
+    }
+
+    .col {
+        align-items: left;
+        justify-content: left;
+
+    }
+    .col img {
+        margin-left: 11px;
+        
+    }
+    
+
+};
+
+@media (max-width:398px) {
+    .card {
+        width: 100%;
+    }
+    .search input {
+        width: 100vw;
+    }
+
+    .search button {
+        width: 80vw;
+    }
+
+    .weather {
+        width: 90vw;
+        display: block;
+       
+    }
+
+   .col {
+        flex-direction: column-reverse;
+        text-align: left;
+        align-items: left;
+        justify-content: right;
+        margin-left: 5;
+   }
+
+
+}
