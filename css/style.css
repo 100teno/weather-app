@@ -116,7 +116,7 @@ body {
     }
 
     .search button {
-        width: 90vw;
+        width: 14%;
     }
 
     .weather {
@@ -132,11 +132,18 @@ body {
     .col {
         align-items: left;
         justify-content: left;
+        margin-bottom: 30px;
 
     }
     .col img {
-        margin-left: 11px;
+        margin-left: 30px;
         
+    }
+
+    .details {
+        align-items: center;
+        justify-content: center;
+        display: block;
     }
     
 
